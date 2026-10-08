@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-alabaster: #F9F8F6;
+  --color-burgundy: #4A1521;
+  --color-burgundy-hover: #380F18;
+  --color-burgundy-light: #F4ECEE;
+  --color-navy: #1B2A4A;
+}
+
+body {
+  background-color: #F9F8F6;
+  color: #1A1A1A;
+  font-family: var(--font-sans);
+}
+
+/* Luxury editorial print paper styling */
+.exam-paper-sheet {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 1px #E5E2DC;
+}
+
+/* Sharp borders */
+.sharp-border {
+  border: 1px solid #E5E2DC;
+}
+
+.sharp-border-dark {
+  border: 1px solid #1E1B18;
+}

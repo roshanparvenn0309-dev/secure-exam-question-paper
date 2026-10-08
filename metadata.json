@@ -1,0 +1,6 @@
+{
+  "name": "Secure Exam Question Paper",
+  "description": "Protect your examination question paper using encryption and hashing - A clean cyber security college project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
